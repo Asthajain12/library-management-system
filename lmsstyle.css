@@ -1,0 +1,150 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:none;
+	
+}
+.main{
+	height:700px;
+	width:1350px;
+	/*background-color:;*/
+}
+header{
+	height:100px;
+	width:1350px;
+	background-color:black;
+	
+}
+section{
+	height:530px;
+	width:1350px;
+	background-color:grey;
+
+}
+footer{
+	height:70px;
+	width:1350px;
+	background-color:black;
+	
+}
+.logo{
+	float:left;
+	padding-left:20px;
+	
+}
+.logo img{
+	padding-left:150px;
+}
+#head1{
+	font-size:30px;
+	height:10px;
+   word-spacing:10px;
+	color:white;
+	
+}
+li a{
+	color:white;
+	text-decoration:none;
+}
+/*nav{
+	float:right;
+	word-spacing:1px;
+    text-align:top
+}
+nav li{
+
+	padding:30px;
+	display:inline-block;
+}*/
+section.sec-img{
+	height:600px;
+	width:1350px;
+	background-image:url("images/ajs.jpeg");
+}
+.box{
+    padding:50px;
+    height:100px;
+	width:200px;
+	background-color:black;
+	margin:60px auto;
+	opacity:.4;
+	color:white;
+	
+	
+}
+/* -------------------------------home page stylesheet--------------------------*/
+
+.log_img
+{
+	height:700px;
+	width:1350px;
+	background-image:url("images/rim.jpeg");
+}
+#head2{
+	text-align:center;
+	
+   font-size:30px;
+	color:white;
+	font-family:verdana;
+    
+}
+.box1{
+	padding:20px;
+	height:450px;
+	width:400px;
+	background-color:black;
+	margin:50px auto;
+	opacity:.6;
+	
+}
+.stu_login{
+
+	margin:auto 70px;
+
+}
+input{
+	height:25px;
+	width:250px;
+    text-align:center;
+	
+	
+}
+
+
+
+/*--------------------------------------student login form------------------------------------------------*/
+
+
+.reg_img{
+	
+	height:700px;
+    width: 1350px;
+	background-image:url("images/rimi.jpeg");
+	
+}
+.box2{
+   
+
+	height:650px;
+	width:500px;
+	background-color:black;
+    margin:auto;
+	
+	opacity:.6;
+	
+}
+#head3{
+	text-align:center;
+    font-size:50px;
+	color:white;
+	font-family:courier;
+    
+}
+.stu_reg input{
+	margin-left:60px;
+	height:30px;
+	width:250px;
+    
+}
+
+/*-------------------------------------------------registration form------------------------------------------------------------------*/

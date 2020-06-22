@@ -1,0 +1,73 @@
+<!doctype.html>
+<html>
+
+        <head>
+          <title>student login</title>		
+		<link rel="stylesheet" type= "text/css" href="lmsstyle.css" >
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+		<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+       <!-- jQuery library -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+       <!-- Latest compiled JavaScript -->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<style type="text/css">
+		   section{
+               margin-top:-20px;
+			   margin-bottom:0px;
+               }			   
+		</style>
+        </head>
+    <body>
+       <nav class="navbar navbar-inverse">
+	   <div class="container-fluid">
+			      <div class="navbar-header"> 
+	           <img src="images/img.jpg" alt="book img" height="50px" width="60px">
+	           <a class="navbar-brand active">online library management system</a>      <!--head1---->
+	               </div>
+       
+	      <ul class="nav navbar-nav">
+		       <li><a href="library.html">home</a></li>
+			   <li><a href="">books</a></li>
+			   
+	           <li><a href="">feedback</a></li>
+		  </ul>
+		   <ul class="nav navbar-nav navbar-right">
+		   <li class="active"><a href="student_login.html"><span class="glyphicon glyphicon-log-in"> login</span></a></li>
+		   <li><a href="student_login.html"><span class="glyphicon glyphicon-log-out"> logout</span></a></li>
+		   <li><a href="register.html"><span class="glyphicon glyphicon-user"> sign up</span></a></li>
+		   </ul>
+		  </div>
+	   </nav>
+		   
+			
+			<section>
+			<div class="log_img">
+		 <br><br><br>
+		 <div class="box1">
+		 <h1 id="head2">online library 
+		 management system</h1><br>
+		 <h1 style="color:white;text-align:center">user login form</h1><br>
+		 <form name="stu_login" class="stu_login">
+		 <input class="form-control" type="text" name="username" placeholder="username" required=""><br>
+		 <input class="form-control" type="password" name="password" placeholder="password" required=""><br>
+		 <input class="btn .btn" type="submit" name="submit" value="login"  style="color:black; width:70px;height:30px;">
+		 
+		 </form>
+		 
+		 <p style="color:white; margin-left:10px;text-align:inline" >
+		 <br>
+		 <br>
+		 <a style="color:white;" href="">forgot password?</a>&nbsp &nbsp &nbsp &nbsp 
+		 new to this website?<a style="color: white;" href="register.html">sign up</a>
+		 
+		 </p>
+		 
+		 </div>
+		 </div>
+          </section>
+	  </body>
+</html>
